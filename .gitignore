@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Build artifacts
+*.hex
+*.bin
+*.elf
+*.map
+
+# QMK build directory
+qmk_firmware/.build/
+
+# Temporary files
+*~
+*.bak
+*.tmp
+
+# IDE files
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
