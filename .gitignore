@@ -8,9 +8,19 @@
 *.bin
 *.elf
 *.map
+*.o
 
 # QMK build directory
 qmk_firmware/.build/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# Micronucleus command-line builds
+micronucleus/commandline/micronucleus
+micronucleus/commandline/builds/
 
 # Temporary files
 *~

@@ -11,6 +11,7 @@ PROGRAM_CMD = micronucleus --run $(BUILD_DIR)/$(TARGET).hex
 #
 BOOTMAGIC_ENABLE = no       # Virtual DIP switch configuration
 MOUSEKEY_ENABLE = no        # Mouse keys
+RAW_ENABLE = yes            # Enable vendor-defined RAW HID channel for host communication
 EXTRAKEY_ENABLE = no        # Audio control and System control
 CONSOLE_ENABLE = no         # Console for debug
 COMMAND_ENABLE = no         # Commands for debug and configuration
